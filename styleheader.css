@@ -1,0 +1,17 @@
+.body{  }
+.block {padding:0 0 0 0; margin:0 0 0 0;background-color:rgb(27, 25, 25) ;}
+.navbar a:hover{ color: rgb(78, 70, 70) ; }
+.nav{ position: sticky ; top: 0 ;}
+.navbar     {background-color: rgba(0, 0, 0, 0.726); witdh:100% ;}
+.SM_Header      {width: 100%;}
+.navbar a   {text-decoration: none;color: white;padding:20px; font-size:30px}
+.wel        { text-align: center; padding-top: 25px;}
+.wel p     { margin:0 ;color: white;  font-size: 20px; }
+.wel h1     { margin:0 ;color: white; font-family: cursive; font-weight: bolder; font-size: 50px; }
+
+
+@media screen and (max-width: 700px) {
+ 
+    .navbar a{ font-size: 20px; }
+
+}
