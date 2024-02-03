@@ -1,7 +1,7 @@
 <html lang="en" class="block">
 <head>
     <title>Sufiyan Mirza-Portfolio</title>
-    <link rel = "icon" type = "image/jpg" href = "img/SMicon.jpg">
+    <link rel = "icon" type = "image/png" href = "img/SMicon.png">
     <link rel="stylesheet" href="css/styleskill.css">
 </head>
 <header>
@@ -43,12 +43,16 @@
         <img src="img/IOT.png"  width="75%">
         <h1>IOT</h1>
 </div>
-<div class="container" id="detail">
-    <img src="img/Arduino.png"  width="60%">
-    <h1>Arduino</h1>
-</div>
+
 <div id="footer"></div>
 </body>
-<script src="/js/callhtml.js"></script>
+<script src="javascript/callinallpage.js"> </script>
+<script> 
+$(function(){
+$("#footer").load("footer.html");
+$("#header").load("header.html");
+});
+</script>
+
 </html>
  
