@@ -5,7 +5,7 @@
 #SMimg { background-color:rgba(0, 0, 0, 0.726); width: 45%; height: fit-content ; border: 1px solid black; text-align: center;border-radius: 25%; }
 #SMimg img {   border-radius: inherit; padding: 0  0 0 0 ; margin: 0 0 0 0;}
 #detail { background-color:rgba(0, 0, 0, 0.726); width: 45%; height: fit-content ; border: 1px solid black; text-align: center;border-radius: 45px; padding: 0 10 0 10 }
-#detail.container h3{  }
+
 #detail.container a{ text-decoration: none; color: white; }
 
 
