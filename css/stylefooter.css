@@ -1,5 +1,5 @@
 
-.footer{ background-color: rgba(0,0,0, 0.726) ; border-radius: 4px; margin: 10 0 0 0 ;padding: 5 5 5 5; } 
+.footer{ background-color: rgba(0,0,0, 0.726) ; border-radius: 4px; margin: 5 0 0 0 ;padding: 5 5 5 5; } 
 
 
 .footer h2{ text-align: center; padding: 0 0 0 0 ; margin: 0 0 0 0 ; color: beige; }
@@ -9,14 +9,16 @@
 .foot img{ padding: 0 0 0 0; margin: 0 0 0 0;}
 
 #locimg.foot img {padding: 5; width: 1%; }
-#insta.foot ,#LinkedIn.foot ,#mail.foot,#git.foot{  width:20% ; margin-top: 25px; margin-bottom: 20px; }
+#insta.foot ,#LinkedIn.foot ,#mail.foot,#git.foot{  width:20% ; margin-top: 5px; margin-bottom: 10px; }
 .foot a:hover{ }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
     .foot {
       flex-direction: row ;
     }
     #locimg.foot img {padding: 5; width: 3%; }
-    #insta.foot ,#LinkedIn.foot ,#mail.foot,#git.foot{  width:33% ; margin-top: 25px; margin-bottom: 0px; }
+    #locimg.foot img{width: 1.5%; }
+    #insta.foot ,#LinkedIn.foot ,#mail.foot,#git.foot{  width:20% ; margin-top: 2px; margin-bottom: 10px; }
+
   }

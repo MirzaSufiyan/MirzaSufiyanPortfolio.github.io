@@ -8,13 +8,22 @@
 #detail.container h2 { padding: 0 0 0 0; margin: 0 0 0 0;}
 #detail.container h2 :hover{ color:rgb(124, 108, 108)}
 #detail.container a{ text-decoration: none; color: white; }
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
 
+@media screen and (max-width: 900px) {
+    #detail.container h2{ font-size: 30px;}
+    #detail.container { width: 80%; height: fit-content; }
+    #detail { background-color:rgba(0, 0, 0, 0.726); width: 50%; height: fit-content ; border: 1px solid black; text-align: center;border-radius: 45px; padding: 10 10 10 10 ; font-weight: ; }
 
-@media screen and (max-width: 700px) {
-    #detail.container h2{ font-size: 20px;}
-    #detail.container { width: 80%; }
-    #SM_Img.container { width: 30%;}
-
-
+    #detail.container h2 { padding: 0 0 0 0; margin: 0 0 0 0;}
+    .footer{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
 
 }
