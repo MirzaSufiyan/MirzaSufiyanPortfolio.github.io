@@ -14,6 +14,6 @@ window.onload = function() {
         xhr.send();
     }
     // Load header and footer HTML files
-    loadHTMLFile('../header.html', 'header');
-    loadHTMLFile('../footer.html', 'footer');
+    loadHTMLFile('./header.html', 'header');
+    loadHTMLFile('./footer.html', 'footer');
 };
