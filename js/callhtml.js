@@ -15,5 +15,5 @@ window.onload = function() {
     }
     // Load header and footer HTML files
     loadHTMLFile('https://mirzasufiyan.github.io/MirzaSufiyanPortfolio.github.io/header.html', 'header');
-    loadHTMLFile('/footer.html', 'footer');
+    loadHTMLFile('https://mirzasufiyan.github.io/MirzaSufiyanPortfolio.github.io/footer.html', 'footer');
 };
