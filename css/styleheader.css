@@ -1,4 +1,4 @@
-.body{  }
+
 .block {padding:0 0 0 0; margin:0 0 0 0;background-color:rgb(27, 25, 25) ;}
 .navbar a:hover{ color: rgb(78, 70, 70) ; }
 .nav{ position: sticky ; top: 0 ;}
@@ -10,8 +10,8 @@
 .wel h1     { margin:0 ;color: white; font-family: cursive; font-weight: bolder; font-size: 50px; }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
  
-    .navbar a{ font-size: 20px; }
+    .navbar a{ font-size: 15px; padding: 5px;}
 
 }

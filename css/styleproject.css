@@ -7,11 +7,11 @@
 #detail.container img{ margin: 0 0 0 0;padding: 0 0 0 0;; } 
 
 .container h2:hover,.container a:hover{ color: black; }
-#detail{ background-color:rgba(0, 0, 0, 0.726); width: 35%; height: 450px ; border: 1px solid black; text-align: center;border-radius: 45px; }
+#detail{ background-color:rgba(0, 0, 0, 0.726); width: 30%; height: 450px ; border: 1px solid black; text-align: center;border-radius: 45px; }
 #Detail.container a{ text-decoration: none; color: white;}
 
 @media screen and (max-width: 900px) {
  
-    #detail{ width: 60%; height: 350px;}
-    .container h2{font-size: large; }
+    #detail{ width: 70%; height: 250px;}
+    .container h2{font-size: medium; }
 }

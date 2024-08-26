@@ -18,7 +18,7 @@
 @media screen and (max-width: 900px) {
  
     #skill2.skill h1 {font-size:x-large }
-    #detail.container{ width: 60%;height: 300px; }
+    #detail.container{ width: 60%;height: 200px; }
     #detail.container h1{ font-size: large;  padding-top: 15px;}
     #detail.container img{width: 50%;  }
 

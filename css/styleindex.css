@@ -12,13 +12,13 @@
 @media screen and (max-width: 900px) {
    
     #detail.container{width:90%; }
-    #SMimg{ width: 50%;}
+    #SMimg{ width: 65%;}
     .container{flex-direction: column;flex-flow: column-reverse; }
-    #detail.container p{font-size: large; }
-    .footer{
+    #detail.container p{font-size: medium; }
+    /* .footer{
         position: fixed;
         bottom: 0;
         left: 0;
-    }
+    } */
 
 }
